@@ -1,0 +1,34 @@
+{
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "assets": ["assets", "favicon.ico"],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "prefix": "app",
+      "styles": [
+        "node_modules/treant-js/Treant.css",
+        "node_modules/treant-js/vendor/perfect-scrollbar/perfect-scrollbar.css",
+        "node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "styles.css"
+      ],
+      "scripts": [
+        "node_modules/jquery/dist/jquery.min.js",
+        "node_modules/popper.js/dist/umd/popper.js",
+        "node_modules/bootstrap/dist/js/bootstrap.js",
+        "node_modules/treant-js/vendor/jquery.easing.js",
+        "node_modules/treant-js/vendor/jquery.mousewheel.js",
+        "node_modules/treant-js/vendor/perfect-scrollbar/perfect-scrollbar.js",
+        "node_modules/raphael/raphael.min.js",
+        "node_modules/treant-js/Treant.js"
+      ],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ]
+}
